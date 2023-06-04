@@ -37,10 +37,6 @@ public abstract class BaseCat implements Cat {
         this.breed = breed;
     }
 
-    private static final int get() {
-        return this.name;
-    }
-
     @Override
     public int getKilograms() {
         return kilograms;
